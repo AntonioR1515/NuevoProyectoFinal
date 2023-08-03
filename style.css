@@ -45,10 +45,10 @@ display: grid;
 #busqueda-menu{
 height: 100%;
 width: 100%;
+display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-display: flex;
 grid-column-start: 3;
 grid-column-end: 4;
 column-gap: 10px;
@@ -97,7 +97,7 @@ column-gap: 10px;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px);
     column-gap: 10px;
     row-gap: 50px;
 }
@@ -117,8 +117,8 @@ column-gap: 10px;
 }
 .imagen-cabana{
     object-fit:contain;
-   
-    width: 95%;
+   width: 209px;
+    height: 117px;
 }
 .descripcion-cabana{
     display: grid;
