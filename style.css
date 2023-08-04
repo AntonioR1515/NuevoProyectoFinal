@@ -61,6 +61,12 @@ column-gap: 10px;
 
 }
 
+.btn-Login:hover{
+    background-color: #3e8e41;
+    color: white;
+      
+}
+
 /*Banner Fin--------------- */
 
 /*Imagen Principal--------------- */
@@ -106,14 +112,29 @@ column-gap: 10px;
     column-gap: 2px;
     row-gap: 0px;
     background-color:azure;
+    border-radius: 5px; 
+    border: 1px solid #89d2ef
     
 }
+
+.contenedor-ima-cabana :hover img{
+    transform: scale(1.5);
+    box-shadow: 0 0 10p rgb(0, 0, 0, 0.5);
+}
+
+img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .contenedor-ima-cabana{
     height: 200px;
     padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform .2s; /* Animation */
 }
 .imagen-cabana{
     object-fit:contain;
@@ -183,9 +204,19 @@ column-gap: 10px;
 }
 /*Menu de cabañas con foto Fin--------------- */
 
+
+
+.carousel-item{
+    width: 1400px;
+    height: 800px;
+}
+.Gap-menu-carousel{
+    height: 20px;
+}
+
 /*Aserca de--------------- */
 .Gap-aserca-de{
-    height: 50px;
+    height: 10px;
 }
 .Aserca-de{
     height: 300px; 
