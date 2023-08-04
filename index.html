@@ -78,8 +78,8 @@
                     </div>
                    
                     <div class="botones-search">
-                        <button type="button" class="btn-Login">Login</button>
-                        <button type="button" class="btn-Sign">Sign-up</button>
+                        <button id="BtnLog" type="button" class="btn-Login">Login</button>
+                        <button id="BtnSign" type="button" class="btn-Sign">Sign-up</button>
                     </div>
 
                 </div>
@@ -265,13 +265,32 @@
 
     </div> 
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Autentificacion</h2>
+        </div>
+        <div class="modal-body">
+          <p>Autentificacion fallida</p>
+          <p>fFavor de revisar credenciales.</p>
+        </div>
+        <div class="modal-footer">
+          <h3>Vuelva a intentarlo</h3>
+        </div>
+      </div>
+  
+  </div>
 
     <script>
         // Get the modal
         var modal = document.getElementById("myModal");
         
         // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
+        var btn = document.getElementById("BtnLog");
         
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
