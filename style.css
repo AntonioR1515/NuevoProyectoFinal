@@ -38,6 +38,9 @@ display: grid;
     height: 100%;
 }
 
+.Menu-btn{
+    cursor: pointer;
+}
 /*
 .principal-banner{
     position: fixed;
@@ -61,6 +64,17 @@ column-gap: 10px;
     grid-template-columns: repeat(3,1fr);
     background-color:rgb(237, 244, 250);
 
+}
+
+.botones-search{
+    display: inline-block;
+}
+
+
+.btnf{
+    width: 60px;
+    height: 30px;
+    font-size:1.2vw;
 }
 
 .btn-Login:hover{
@@ -161,10 +175,12 @@ column-gap: 10px;
     justify-content: center;
 }
 .boton-carrito{
-    color:rgb(77, 87, 87);
+    /* color:rgb(77, 87, 87); */
     
     margin: 10;
-    background-color: rgb(0, 191, 255);
+    color: white;
+    /* background-color: rgb(0, 191, 255); */
+    background-color: rgb(5, 32, 41); 
     border: none;
     border-radius: 10px;
     width: 200px;
@@ -247,7 +263,57 @@ column-gap: 10px;
 .Aserca-de{
     height: 300px; 
     background-color:gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.Footer{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+
+.Image-Icon-footer{
+    /* width: 100%; */
+    width: 30px;
+    height: 30px; 
+}
+
+.iconfooter{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;  
+}
+
+.Cont-icon-footer{
+    height: 30px; 
+    width: 100%;
+   display: inline-flex;
+   justify-content: left;
+   align-items: center;
+   text-align: center;
+   column-gap: 20px;
+}
+
+.elemento{
+text-align: center;
+
+width: 100%;
+height: 100%;
+font-size: 5%;
+}
+
+.Footer1{
+    width: 250px;
+   
+}
+
+/*Modal ---------------*/
 
 .modal {
     display: none; /* Hidden by default */
@@ -270,7 +336,7 @@ column-gap: 10px;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 40%;
+    width: 500px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -289,7 +355,7 @@ column-gap: 10px;
     to {top:0; opacity:1}
   }
 
-  /* The Close Button */
+  
 .close {
     color: white;
     float: right;
@@ -306,7 +372,7 @@ column-gap: 10px;
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #3239b9;
     color: white;
   }
   
@@ -314,6 +380,50 @@ column-gap: 10px;
   
   .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #3239b9;
     color: white;
   }
+
+  /* Fin del modal */
+
+  /* Dropdown estilo */
+
+  /* .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  } */
+  
+.dropbtn{
+    cursor: pointer;
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
