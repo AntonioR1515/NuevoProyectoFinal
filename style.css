@@ -26,7 +26,7 @@ display: grid;
     width: 100%;
     grid-template-columns: repeat(6,1fr);
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
    
 }
 .ima-container-menu{
@@ -40,6 +40,7 @@ display: grid;
 
 .Menu-btn{
     cursor: pointer;
+    font-size: 70%;
 }
 /*
 .principal-banner{
@@ -49,20 +50,24 @@ display: grid;
 
 #busqueda-menu{
 height: 100%;
-width: 100%;
+width: 130%;
 display: flex;
-justify-content: center;
+justify-content: right;
 align-items: center;
 text-align: center;
-grid-column-start: 3;
-grid-column-end: 4;
+grid-column-start: 4;
+grid-column-end: 7;
 column-gap: 10px;
 }
 
 #menu{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(6,1fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:rgb(237, 244, 250);
+    /* column-gap: 20px; */
 
 }
 
@@ -262,6 +267,7 @@ column-gap: 10px;
 }
 .Aserca-de{
     height: 300px; 
+    width: 100%;
     background-color:gainsboro;
     display: flex;
     align-items: center;
@@ -269,7 +275,7 @@ column-gap: 10px;
 }
 
 .Footer{
-    width: 60%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 20px;
@@ -277,8 +283,8 @@ column-gap: 10px;
 
 .Image-Icon-footer{
     /* width: 100%; */
-    width: 30px;
-    height: 30px; 
+    width: 40px;
+    height: 40px; 
 }
 
 .iconfooter{
@@ -286,8 +292,8 @@ column-gap: 10px;
     justify-items: center;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;  
+    width: 80px;
+    height: 80px;  
 }
 
 .Cont-icon-footer{
@@ -297,7 +303,7 @@ column-gap: 10px;
    justify-content: left;
    align-items: center;
    text-align: center;
-   column-gap: 20px;
+   column-gap: 10px;
 }
 
 .elemento{
@@ -309,8 +315,10 @@ font-size: 5%;
 }
 
 .Footer1{
+    display: grid;
+
     width: 250px;
-   
+   row-gap: 10px;
 }
 
 /*Modal ---------------*/
